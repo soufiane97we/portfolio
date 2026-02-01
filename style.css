@@ -1,9 +1,16 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 :root {
     --primary: #0d6efd;
     --accent: #17c0eb;
@@ -17,13 +24,20 @@ body {
     line-height: 1.6;
     scroll-behavior: smooth;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 header {
     background: #fff;
     position: sticky;
@@ -31,55 +45,84 @@ header {
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,.05);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .logo {
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: var(--primary);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .nav-links {
     display: flex;
     gap: 25px;
     list-style: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .nav-links a {
     text-decoration: none;
     color: var(--dark);
     font-weight: 500;
     transition: 0.3s;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .nav-links a:hover {
     color: var(--primary);
     transform: translateY(-2px);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .hamburger {
     display: none;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+<<<<<<< HEAD
     background: none; 
     border: none;      
     padding: 0;
 }
 
+=======
+     background: none; 
+    border: none;      
+    padding: 0;
+}
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .hamburger span {
     width: 25px;
     height: 3px;
     background: var(--dark);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .hero {
     background: linear-gradient(135deg, var(--primary), var(--accent));
     color: #fff;
@@ -141,7 +184,10 @@ header {
 section {
     padding: 80px 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -192,12 +238,20 @@ h2 {
     line-height: 1.5;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .project-card {
     background: #fff;
     border-radius: 12px;
@@ -205,11 +259,15 @@ h2 {
     box-shadow: 0 10px 25px rgba(0,0,0,.08);
     transition: transform .3s, box-shadow .3s;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .project-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(0,0,0,.15);
 }
+<<<<<<< HEAD
 
 
 .project-card img {
@@ -239,6 +297,16 @@ h2 {
     padding: 20px;
 }
 
+=======
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.project-content {
+    padding: 20px;
+}
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .project-tech span {
     background: #eef2ff;
     color: var(--primary);
@@ -249,7 +317,10 @@ h2 {
     margin: 4px;
     display: inline-block;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .project-links a {
     display: inline-block;
     margin-top: 15px;
@@ -260,12 +331,20 @@ h2 {
     text-decoration: none;
     transition: 0.3s;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .project-links a:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0,123,255,0.3);
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .contact-cards {
     display: flex;
     justify-content: center;
@@ -310,6 +389,10 @@ h2 {
     color: var(--accent);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 @media(max-width: 768px) {
     .contact-cards {
         flex-direction: column;
@@ -317,6 +400,11 @@ h2 {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 @media (max-width: 768px) {
     .contact-links {
         flex-direction: column;
@@ -324,41 +412,65 @@ h2 {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .footer {
     background: var(--primary);
     color: #fff;
     text-align: center;
     padding: 20px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .footer a {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
     transition: 0.3s;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .footer a:hover {
     color: var(--accent);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
     transition: .8s;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .fade-in.show {
     opacity: 1;
     transform: translateY(0);
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 @media(max-width: 992px) {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 @media(max-width: 768px) {
     .hero-container,
     .apropos-container {
@@ -388,13 +500,19 @@ h2 {
         display: flex;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 a:focus,
 button:focus {
     outline: 3px solid var(--accent);
     outline-offset: 3px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e847b6b11dc8500ddc0b502d5509368a478f3c01
 .btn-secondary {
     background: transparent;
     border: 2px solid #fff;
