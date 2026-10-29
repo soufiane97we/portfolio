@@ -1,344 +1,413 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soufiane Rharrouz | Intégrateur web junior</title>
 
-<meta name="description" content="Portfolio de Soufiane Rharrouz, développeur web junior spécialisé en PHP et MySQL.">
-<meta name="author" content="Soufiane Rharrouz">
+    <meta
+        name="description"
+        content="Portfolio de Soufiane Rharrouz, intégrateur web junior à Montréal. Découvrez mes projets en HTML, CSS, JavaScript et WordPress."
+    >
 
-<title>Soufiane Rharrouz – Développeur Web | PHP, MySQL, JavaScript</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+    
+    <header class="header">
+        <div class="container header-container">
 
-<div class="container header-container">
-
-<div class="logo">Soufiane Rharrouz</div>
-
-<nav>
-<ul class="nav-links">
-<li><a href="#accueil">Accueil</a></li>
-<li><a href="#apropos">À propos</a></li>
-<li><a href="#projets">Projets</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-
-<button class="hamburger" aria-label="menu">
-<span></span>
-<span></span>
-<span></span>
-</button>
-
-</div>
-
-</header>
-
-
-
-<section id="accueil" class="hero">
-
-<div class="container hero-container">
-
-<div class="hero-text">
-
-<span class="hero-badge">Web Developer</span>
-
-<h1>Soufiane <span class="highlight">Rharrouz</span></h1>
-
-<h2 class="hero-role">PHP • MySQL • WordPress • JavaScript</h2>
-
-<p>
-Développeur web spécialisé en PHP et MySQL.
-Je développe des applications web complètes avec JavaScript et WordPress
-pour créer des interfaces modernes, dynamiques et fonctionnelles.
-</p>
-
-<div class="hero-cta">
-
-<a href="#projets" class="btn">Voir mes projets</a>
-<a href="#contact" class="btn btn-secondary">Me contacter</a>
-
-</div>
-
-<div class="hero-social">
-
-<a href="https://github.com/soufiane97we" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-<i class="fa-brands fa-github"></i>
-</a>
-
-<a href="https://www.linkedin.com/in/soufiane-rharrouz-678242345" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-<i class="fa-brands fa-linkedin"></i>
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<section id="apropos" class="fade-in">
-
-<div class="container">
-
-<h2>À propos de moi</h2>
-
-<p class="apropos-intro">
-Je suis développeur web spécialisé en PHP et MySQL.
-J’aime créer des applications web simples et efficaces
-qui permettent de gérer des données et résoudre des problèmes concrets.
-</p>
-
-<div class="apropos-grid">
-
-<div class="apropos-card">
-<i class="fas fa-server"></i>
-<h3>Backend</h3>
-<p>Développement d'applications avec PHP et MySQL.</p>
-</div>
-
-<div class="apropos-card">
-<i class="fas fa-code"></i>
-<h3>Frontend</h3>
-<p>Interfaces modernes avec HTML CSS JavaScript.</p>
-</div>
-
-<div class="apropos-card">
-<i class="fab fa-git-alt"></i>
-<h3>Git</h3>
-<p>Gestion du code avec Git et GitHub.</p>
-</div>
-
-<div class="apropos-card">
-<i class="fab fa-wordpress"></i>
-<h3>WordPress</h3>
-<p>Création de sites vitrines avec WordPress et l’éditeur Gutenberg.</p>
-</div>
-
-</div>
-</div>
-</section>
-
-<section id="projets" class="projects fade-in">
-
-<div class="container">
-
-<h2>Mes projets</h2>
-
-<div class="projects-grid">
-
-
-<div class="project-card">
-    <img src="images/login.png" alt="Futsal Coach" loading="lazy">
-
-    <div class="project-content">
-        <h3>Futsal Coach App</h3>
-
-        <p class="project-description">
-            Application web pour gérer les joueurs, les notes et organiser un tableau tactique.
-        </p>
-
-        <ul class="project-features">
-            <li>Gestion joueurs (CRUD)</li>
-            <li>Ajout de notes individuelles</li>
-            <li>Tableau tactique interactif</li>
-        </ul>
-
-        <div class="project-tech">
-            <span>PHP</span>
-            <span>MySQL</span>
-            <span>JavaScript</span>
-        </div>
-
-        <div class="project-links">
-            <a href="https://github.com/soufiane97we/FutsalCoach" target="_blank">
-                <i class="fab fa-github"></i> Code source
+            <a href="#accueil" class="logo" aria-label="Accueil">
+                SR<span>.</span>
             </a>
+
+            <nav class="nav" id="navigation">
+                <a href="#accueil">Accueil</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#apropos">À propos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false"
+                aria-controls="navigation"
+            >
+                ☰
+            </button>
+
         </div>
+    </header>
+
+    <main>
+
+       
+        <section class="hero section" id="accueil">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        INTÉGRATEUR WEB JUNIOR · MONTRÉAL
+                    </p>
+
+                    <h1>
+                        Je transforme des maquettes en
+                        <span>interfaces web.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Je crée des pages web structurées, responsives et
+                        accessibles avec HTML, CSS et WordPress.
+                        Je développe également mes compétences en JavaScript.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projets" class="button button-primary">
+                            Voir mes projets
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Me contacter
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="code-card">
+
+                        <div class="code-card-header">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>profil.js</span>
+                        </div>
+
+                        <div class="code-card-content">
+                            <p>
+                                <span class="code-purple">const</span>
+                                profil = {
+                            </p>
+
+                            <p class="code-indent">
+                                nom:
+                                <span class="code-green">
+                                    "Soufiane Rharrouz"
+                                </span>,
+                            </p>
+
+                            <p class="code-indent">
+                                poste:
+                                <span class="code-green">
+                                    "Intégrateur web junior"
+                                </span>,
+                            </p>
+
+                            <p class="code-indent">
+                                technologies: [
+                            </p>
+
+                            <p class="code-indent code-indent-double">
+                                "HTML", "CSS", "WordPress"
+                            </p>
+
+                            <p class="code-indent">
+                                ],
+                            </p>
+
+                            <p class="code-indent">
+                                objectif:
+                                <span class="code-green">
+                                    "Créer des interfaces web"
+                                </span>
+                            </p>
+
+                            <p>};</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+       
+        <section class="skills section" id="competences">
+            <div class="container">
+
+                <p class="section-index">01 / COMPÉTENCES</p>
+
+                <div class="section-heading">
+                    <p class="eyebrow">MES OUTILS</p>
+
+                    <h2>
+                        Les bases pour créer
+                        <span>des sites web.</span>
+                    </h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>HTML5</h3>
+                        <p>
+                            Structurer le contenu avec un HTML clair
+                            et sémantique.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>CSS3</h3>
+                        <p>
+                            Mettre en forme les interfaces et adapter
+                            les pages aux différentes tailles d’écran.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>JavaScript</h3>
+                        <p>
+                            Ajouter des interactions simples et
+                            comprendre le fonctionnement du DOM.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>WordPress</h3>
+                        <p>
+                            Créer et modifier des pages avec Gutenberg
+                            et gérer le contenu d’un site.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+       
+        <section class="projects section" id="projets">
+            <div class="container">
+
+                <p class="section-index">02 / PROJETS</p>
+
+                <div class="section-heading">
+                    <p class="eyebrow">SÉLECTION DE PROJETS</p>
+
+                    <h2>
+                        Du concret,
+                        <span>pas seulement des idées.</span>
+                    </h2>
+
+                    <p>
+                        Des projets personnels pour pratiquer la création
+                        de pages web et l’intégration de contenu.
+                    </p>
+                </div>
+
+                 <div class="projects-grid">
+
+            <article class="project-card">
+
+                <a
+                    href="https://nettopro.ct.ws/?i=1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-image-link"
+                    aria-label="Visiter le site NettoPro"
+                >
+                    <img
+                        src="images/nettopro-preview.png"
+                        alt="Aperçu du site NettoPro"
+                        class="project-image"
+                    >
+                </a>
+
+                <div class="project-content">
+                    <h3>NettoPro</h3>
+                    <p>
+                         Landing page conçue pour présenter les services de nettoyage
+    et encourager les visiteurs à demander une soumission.
+                    </p>
+                     <ul class="project-tags">
+        <li>WordPress</li>
+        <li>Responsive</li>
+        <li>SEO on-page</li>
+    </ul>
+
+                    <a
+                        href="https://nettopro.ct.ws/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary"
+                    >
+                        Voir le site en ligne
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+
     </div>
-</div>
-
-
-<div class="project-card">
-    <img src="images/dashboard.png" alt="AdminSuite" loading="lazy">
-
-    <div class="project-content">
-        <h3>AdminSuite</h3>
-
-        <p class="project-description">
-            Dashboard web pour gérer projets et utilisateurs avec authentification et statistiques.
-        </p>
-
-        <ul class="project-features">
-            <li>Gestion projets et utilisateurs</li>
-            <li>Système d’authentification</li>
-            <li>Statistiques simples</li>
-        </ul>
-
-        <div class="project-tech">
-            <span>PHP</span>
-            <span>MySQL</span>
-            <span>JavaScript</span>
-        </div>
-
-        <div class="project-links">
-            <a href="https://github.com/soufiane97we/AdminSuite" target="_blank">
-                <i class="fab fa-github"></i> Code source
-            </a>
-        </div>
-    </div>
-</div>
-
-
-<div class="project-card">
-    <img src="images/Calendrier.png" alt="Championnat" loading="lazy">
-
-    <div class="project-content">
-        <h3>Dashboard Championnat</h3>
-
-        <p class="project-description">
-            Application web pour suivre équipes, joueurs et matchs avec un dashboard structuré.
-        </p>
-
-        <ul class="project-features">
-            <li>Classement des équipes</li>
-            <li>Statistiques des joueurs</li>
-            <li>Calendrier des matchs</li>
-        </ul>
-
-        <div class="project-tech">
-            <span>PHP</span>
-            <span>MySQL</span>
-        </div>
-
-        <div class="project-links">
-            <a href="https://github.com/soufiane97we/dashboard-championnat" target="_blank">
-                <i class="fab fa-github"></i> Code source
-            </a>
-        </div>
-    </div>
-</div>
-
-
-<div class="project-card">
-    <img src="images/hero.png" alt="Gym Pro WordPress" loading="lazy">
-
-    <div class="project-content">
-        <h3>Gym Pro - Site WordPress</h3>
-
-        <p class="project-description">
-            Site vitrine moderne réalisé avec WordPress et Gutenberg, responsive et optimisé.
-        </p>
-
-        <ul class="project-features">
-            <li>Page d’accueil avec section hero</li>
-            <li>Présentation des services</li>
-            <li>Section À propos</li>
-            <li>Formulaire de contact</li>
-            <li>Design responsive</li>
-        </ul>
-
-        <div class="project-tech">
-            <span>WordPress</span>
-            <span>Gutenberg</span>
-        </div>
-
-        <div class="project-links">
-            <span class="no-link">Projet réalisé en local</span>
-        </div>
-    </div>
-</div>
-
-</div> 
-
-</div> 
-
 </section>
+        
+        <section class="about section" id="apropos">
+            <div class="container about-container">
 
+                <p class="section-index">03 / À PROPOS</p>
 
+                <div class="about-content">
 
-<section id="contact" class="contact fade-in">
+                    <p class="eyebrow">MON PARCOURS</p>
 
-<div class="container">
+                    <h2>
+                        Apprendre, pratiquer et
+                        <span>progresser.</span>
+                    </h2>
 
-<h2>Contact</h2>
+                    <p>
+                        Je développe mes compétences en intégration web
+                        à travers des projets personnels, en travaillant
+                        sur la création de pages structurées, le responsive
+                        design et l’utilisation de HTML, CSS et WordPress.
+                    </p>
 
-<div class="contact-cards">
+                    <p>
+                        Mon objectif est de rejoindre une équipe où je pourrai
+                        contribuer à des projets web, apprendre de bonnes
+                        pratiques et continuer à progresser comme intégrateur
+                        web junior.
+                    </p>
 
-<div class="card">
-<i class="fas fa-envelope"></i>
-<h3>Email</h3>
-<a href="mailto:soufian.rharrouz@gmail.com">soufian.rharrouz@gmail.com</a>
-</div>
+                </div>
 
-<div class="card">
-<i class="fab fa-linkedin"></i>
-<h3>LinkedIn</h3>
-<a href="https://www.linkedin.com/in/soufiane-rharrouz-678242345" target="_blank" rel="noopener noreferrer">
-Voir mon profil
-</a>
-</div>
+            </div>
+        </section>
 
-<div class="card">
-<i class="fab fa-github"></i>
-<h3>GitHub</h3>
-<a href="https://github.com/soufiane97we" target="_blank" rel="noopener noreferrer">
-Voir mon GitHub
-</a>
-</div>
+        
+        <section class="contact section" id="contact">
+            <div class="container contact-container">
 
-</div>
+                <p class="section-index">04 / CONTACT</p>
 
-</div>
+                <div class="contact-content">
 
-</section>
+                    <p class="eyebrow">ÉCHANGEONS</p>
 
+                    <h2>
+                        À la recherche d'une
+                        <span>opportunité.</span>
+                    </h2>
 
+                    <p>
+                        Vous recherchez un intégrateur web junior ou souhaitez
+                        discuter d'une opportunité professionnelle ?
+                        N'hésitez pas à me contacter par courriel ou à
+                        consulter mes profils professionnels.
+                    </p>
 
-<footer class="footer">
+                    <div class="contact-actions">
 
-<p>© 2025 Soufiane Rharrouz</p>
+                        <a
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=soufian.rharrouz@gmail.com"
+                            class="button button-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Me contacter par courriel
+                            <span aria-hidden="true">↗</span>
+                        </a>
 
-</footer>
+                        <a
+                            href="https://github.com/soufiane97we"
+                            class="button button-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Consulter mon profil GitHub dans un nouvel onglet"
+                        >
+                            GitHub
+                            <span aria-hidden="true">↗</span>
+                        </a>
 
-<script>
+                    </div>
 
-const hamburger=document.querySelector(".hamburger")
-const navLinks=document.querySelector(".nav-links")
+                </div>
 
-hamburger.addEventListener("click",()=>{
-navLinks.classList.toggle("nav-active")
-})
+            </div>
+        </section>
 
-const faders=document.querySelectorAll(".fade-in")
+    </main>
 
-const observer=new IntersectionObserver(entries=>{
-entries.forEach(entry=>{
-if(entry.isIntersecting){
-entry.target.classList.add("show")
-}
-})
-})
+    
+    <footer class="footer">
+        <div class="container footer-container">
 
-faders.forEach(fader=>observer.observe(fader))
+            <a href="#accueil" class="logo" aria-label="Retour à l’accueil">
+                SR<span>.</span>
+            </a>
 
-</script>
+            <p>
+                © 2026 Soufiane Rharrouz. Tous droits réservés.
+            </p>
+
+            <a
+                href="https://github.com/soufiane97we"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub ↗
+            </a>
+
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector("#menu-toggle");
+        const navigation = document.querySelector("#navigation");
+
+        menuToggle.addEventListener("click", () => {
+            const isExpanded =
+                menuToggle.getAttribute("aria-expanded") === "true";
+
+            menuToggle.setAttribute("aria-expanded", String(!isExpanded));
+            menuToggle.setAttribute(
+                "aria-label",
+                isExpanded ? "Ouvrir le menu" : "Fermer le menu"
+            );
+
+            navigation.classList.toggle("is-open");
+        });
+
+        navigation.querySelectorAll("a").forEach((link) => {
+            link.addEventListener("click", () => {
+                navigation.classList.remove("is-open");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.setAttribute("aria-label", "Ouvrir le menu");
+            });
+        });
+    </script>
 
 </body>
 </html>
